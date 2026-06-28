@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <main class="game-wrapper">
+        <div class="console-container">
+            <div class="screen">
+                <div id="board"></div>
+                <div id="gameOver" class="game-over-overlay">GAME OVER</div>
+            </div>
+            
+            <div class="boardInfo">
+                <div class="score-box">
+                    <span class="label">SCORE</span>
+                    <div id="scoreBoard" class="number">0</div>
+                </div>
+                <button id="start">START</button>
+                <div class="score-box">
+                    <span class="label">HI-SCORE</span>
+                    <div id="highScoreBoard" class="number">0</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

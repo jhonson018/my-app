@@ -55,4 +55,4 @@ const server = Bun.serve({
     },
 });
 
-console.log(`🚀 Servidor puro corriendo en http://localhost:${server.port}`);
+console.log(`🚀 Servidor puro corriendo en http://localhost:${server.port}`);/***/

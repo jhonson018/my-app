@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mi-app-frontend</title>
+  </head>
+  <body>
+    <h3> Insertar datos </h3>
+    <form action="http://localhost:3000/api/usuario" method="post" enctype="multipart/form-data">
+        <div class="campo">
+            <label for="nombre">Ingrese su Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+         <div class="campo">
+            <label for="edad">Ingrese su Edad</label>
+            <input type="number" id="edad" name="edad" required>
+        </div>
+         <div class="campo">
+            <label for="imagen">Ingres una imagen </label>
+            <input type="file" id="imagen" name="imagen" accept="image/*"  required>
+        </div>
+        <button type="submit"> enviar </button>
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -108,7 +108,7 @@ const server = Bun.serve({
     return Response.json(
       { error: "Recurso no encontrado", detalle: `El método ${method} en la ruta ${pathname} no existe.` },
       { status: 404 }
-    );
+    );                                                                                                                                                                                      
   },
 });
 
